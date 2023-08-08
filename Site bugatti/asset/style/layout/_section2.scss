@@ -1,0 +1,56 @@
+.section-univers {
+    width: 85%;
+    margin: 100px auto;
+
+    & h2 {
+        font-size: 3em;
+        font-family: $font1;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+
+        @media screen and(max-width: 902px) {
+            font-size: 1.6em;
+        }
+    }
+
+    .flex-univers {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+
+        @media screen and(max-width: 902px) {
+            display: block;
+            margin: 45px auto;
+        }
+
+        .moteur {
+            width: 100%;
+            min-height: 100%;
+        }
+
+        .univers2 {
+            width: 100%;
+           min-height: 100%;
+        }
+
+        .univers3 {
+            width: 100%;
+            min-height: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .fig-univers {
+            display: flex;
+            justify-content: space-between;
+            margin: -30px auto;
+            color: $white;
+            padding: 0 10px 0 10px;
+            text-transform: uppercase;
+            font-family: $font1;
+        }
+    }
+}
